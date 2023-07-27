@@ -1,0 +1,230 @@
+.question__container {
+  padding: 0 0px;
+}
+
+.question__content {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+}
+.question__text-content {
+  @media screen and (max-width: 1900px) {
+    max-height: 90%;
+    top: 10%;
+  }
+  @media screen and (max-width: 1600px) {
+    padding: 25px;
+    max-width: 40%;
+    max-height: 90%;
+    top: 10%;
+  }
+  @media screen and (max-width: 1440px) {
+    padding: 25px;
+    max-width: 50%;
+    max-height: 100%;
+    top: 10%;
+  }
+
+  @media screen and (max-width: 1024px) {
+    padding: 15px;
+    max-height: 90%;
+    top: 5%;
+    max-width: 45%;
+  }
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+
+  max-width: 528px;
+  max-height: 70%;
+  background-color: $color_white;
+  right: 0;
+  top: 15%;
+  padding: 49px 50px 49px 45px;
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: static;
+
+    max-height: 70%;
+    background-color: $color_white;
+    padding: 0 50px 15px 45px;
+    max-width: 100%;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 100%;
+    background-color: $color_accent;
+    @media screen and (min-width: 1921px) {
+      width: 15px;
+    }
+    @media screen and (max-width: 1440px) {
+      width: 12px;
+      height: 100%;
+    }
+    @media screen and (max-width: 1200px) {
+      width: 10px;
+      height: 100%;
+    }
+  }
+}
+
+.question-title {
+  font-size: 36px;
+  line-height: 125%;
+  margin-bottom: 25px;
+  @media screen and (max-width: 1600px) {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 1440px) {
+    font-size: 24px;
+  }
+  @media screen and (max-width: 1024px) {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  @media screen and (max-width: 767px) {
+    margin-bottom: 25px;
+    font-size: 16px;
+  }
+}
+.question__btn {
+  display: block;
+  padding: 14px 35px;
+  background: $color_accent;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 3px;
+  flex-basis: 100%;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  transition: $transition__stock;
+  border: none;
+  &:hover,
+  &:focus {
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+  @media screen and (max-width: 1600px) {
+    padding: 8px 35px;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  @media screen and (max-width: 1024px) {
+    padding: 8px 35px;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}
+.question__text {
+  line-height: $line-height;
+  font-size: 18px;
+  font-weight: 400;
+  @media screen and (max-width: 1440px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 1200px) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 980px) {
+    font-size: 14px;
+  }
+}
+.question__text a {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.question__img-content {
+  max-width: 81%;
+  display: flex;
+  align-self: flex-start;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+.question__img {
+  width: 100%;
+  object-fit: contain;
+}
+.question__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.question__decorative-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-basis: 100%;
+  background-color: $color_white;
+  @media screen and (max-width: 1600px) {
+    gap: 10px;
+  }
+  @media screen and (max-width: 1024px) {
+    gap: 5px;
+  }
+  @media screen and (max-width: 767px) {
+    gap: 15px;
+  }
+}
+label {
+  flex-wrap: 1;
+}
+input {
+  padding: 14px;
+  background: #ffffff;
+  border: 1px solid $primery-text-color;
+  border-radius: 3px;
+  transition: $transition__stock;
+  @media screen and (max-width: 1600px) {
+    padding: 7px;
+  }
+  @media screen and (max-width: 1024px) {
+    padding: 5px;
+  }
+
+  &:focus,
+  &:hover {
+    border-color: $color_accent;
+    outline: none;
+  }
+}
+
+.question__input-area {
+  display: flex;
+  flex-basis: 100%;
+  color: $primery-text-color;
+  font-weight: 400;
+  font-size: 18px;
+  transition: $transition__stock;
+  @media screen and (max-width: 1600px) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 1024px) {
+    font-size: 12px;
+  }
+}
+.question__input-area::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 0.6;
+  transition: $transition__stock;
+  @media screen and (max-width: 1600px) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 1024px) {
+    font-size: 12px;
+  }
+}
+.question__input-area:focus.question__input-area::placeholder {
+  opacity: 1;
+}

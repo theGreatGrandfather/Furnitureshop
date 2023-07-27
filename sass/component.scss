@@ -1,0 +1,91 @@
+._anim-show {
+  transform: translate(-120%, 0px);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+._anim-show._active,
+._active ._anim-show {
+  transform: translate(0px, 0px);
+  opacity: 1;
+  // transition: all 0.8s ease 0.5s;
+}
+
+._container {
+  padding: 0 51px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1920px;
+
+  @media screen and (max-width: 1440px) {
+    padding: 0 45px;
+  }
+  @media screen and (max-width: 1200px) {
+    padding: 0 35px;
+  }
+  @media screen and (max-width: 980px) {
+    padding: 0 15px;
+  }
+  @media screen and (max-width: 420px) {
+    padding: 0 5px;
+  }
+}
+._section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (max-width: 1440px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  @media screen and (max-width: 1024px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+.__title {
+  display: flex;
+  justify-content: center;
+}
+.section__title {
+  font-size: 48px;
+  line-height: 125%;
+  position: relative;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 2;
+  margin-bottom: 50px;
+  @media screen and (max-width: 1440px) {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  @media screen and (max-width: 1024px) {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
+
+  &::before {
+    content: "";
+    width: 20px;
+    height: 100%;
+    background-color: $color_accent;
+    top: 0;
+    left: -1%;
+    position: absolute;
+    z-index: -1;
+    @media screen and (max-width: 1440px) {
+      width: 16px;
+    }
+    @media screen and (max-width: 1024px) {
+      width: 9px;
+    }
+    @media screen and (max-width: 768px) {
+      width: 7px;
+    }
+  }
+}

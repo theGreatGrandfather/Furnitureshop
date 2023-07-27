@@ -1,0 +1,125 @@
+.about-us__container {
+  padding: 0 0;
+}
+
+.about-us__content {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+}
+.about-us__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about-us__img-content {
+  max-width: 73%;
+  display: flex;
+  align-self: self-end;
+}
+.about-us__text-content {
+  @media screen and (max-width: 1440px) {
+    padding: 45px;
+    max-width: 50%;
+  }
+  @media screen and (max-width: 1200px) {
+    padding: 35px;
+    max-width: 60%;
+  }
+  @media screen and (max-width: 980px) {
+    padding: 15px;
+    max-width: 70%;
+  }
+  @media screen and (max-width: 550px) {
+    padding: 5px;
+    max-width: 70%;
+    max-height: 90%;
+    top: 5%;
+  }
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 42%;
+  max-height: 70%;
+  background-color: $color_white;
+  left: 0;
+  top: 15%;
+  padding: 49px;
+  overflow: auto;
+  scrollbar-width: thin; /* "auto" или "thin" */
+  scrollbar-color: $color_accent $primery-text-color;
+  &::-webkit-scrollbar {
+    width: 15px;
+    @media screen and (max-width: 1440px) {
+      width: 12px;
+    }
+    @media screen and (max-width: 1200px) {
+      width: 10px;
+    }
+    @media screen and (max-width: 980px) {
+      width: 7px;
+    }
+    @media screen and (max-width: 420px) {
+      width: 5px;
+    }
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $primery-text-color;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $color_accent;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    height: 100%;
+    background-color: $color_accent;
+    @media screen and (min-width: 1921px) {
+      width: 15px;
+    }
+    @media screen and (max-width: 1440px) {
+      height: 100%;
+    }
+    @media screen and (max-width: 1200px) {
+      height: 100%;
+    }
+    @media screen and (max-width: 980px) {
+      height: 100%;
+    }
+    @media screen and (max-width: 420px) {
+      height: 100%;
+    }
+  }
+}
+.about-us__text {
+  line-height: $line-height;
+  font-size: 18px;
+  font-weight: 400;
+  @media screen and (max-width: 1440px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 1200px) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 980px) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 12px;
+  }
+  @media screen and (max-width: 420px) {
+    font-size: 10px;
+  }
+}
+.about-us__text span {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $color_accent;
+}

@@ -1,0 +1,20 @@
+$primery-text-color: #1e2e36;
+$color_accent: #44c697;
+$color_white: #ffffff;
+$transition__stock: all 300ms linear;
+$primery_font: "Proxima Nova", sans-serif;
+$secondury_font: "Cuprum", sans-serif;
+$font-weight: 700;
+$line-height: 125%;
+$font-style: normal;
+
+* {
+  color: $primery-text-color;
+  font-family: $primery_font;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  font-style: $font-style;
+}
+a {
+  color: $primery-text-color;
+}

@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="icon shortcut" type="image/svg" href="./svg/logo.svg">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="body">
+    <!-- header -->
+    <header class="header">
+        <div class='_container'>
+            <div class="header__body">
+                <div class="header__top">
+
+                    <div class='header__social-continer'>
+                        <p class='header__social-title'>Ми в соціальних мережах:</p>
+                        <ul class='header__social-list'>
+                            <li class='header__social-item _list'><a rel='noopener no-referrel nofollow'
+                                    class='__link _link' href='#'><svg class='social__icon'>
+                                        <use href='./svg/sprite.svg#icon-telegram'></use>
+                                    </svg></a></li>
+                            <li class='header__social-item _list'><a rel='noopener no-referrel nofollow'
+                                    class='__link _link' href='#'><svg class='social__icon'>
+                                        <use href='./svg/sprite.svg#icon-facebook'></use>
+                                    </svg></a></li>
+                            <li class='header__social-item _list'><a rel='noopener no-referrel nofollow'
+                                    class='__link _link' href='#'><svg class='social__icon'>
+                                        <use href='./svg/sprite.svg#icon-instagram'></use>
+                                    </svg></a></li>
+                        </ul>
+                        <div class='contacts__address-container'>
+                            <ul class='__list'>
+                                <li class='contacts__address-main _list'>
+                                    <a class="contacts__address-phone contacts__address-phone-main _link"
+                                        href="tel:0991112233"><svg class="contacts__icon">
+                                            <use href="./svg/sprite.svg#icon-smartphone"></use>
+                                        </svg><span>(099) 111 22 33</span> <svg class='chevron__icon'>
+                                            <use href='./svg/sprite.svg#icon-chevron-left'></use>
+                                        </svg></a>
+                                    <ul class='contacts__address-phone-list'>
+                                        <li class='contacts__address-phone-item _list'><a
+                                                class="contacts__address-phone  _link" href="tel:0981112233"><svg
+                                                    class="contacts__icon">
+                                                    <use href="./svg/sprite.svg#icon-smartphone"></use>
+                                                </svg>(099) 111 22 33</a></li>
+                                        <li class='contacts__address-phone-item _list'><a
+                                                class="contacts__address-phone  _link" href="tel:0991112233"><svg
+                                                    class="contacts__icon">
+                                                    <use href="./svg/sprite.svg#icon-smartphone"></use>
+                                                </svg>(093) 111 22 33</a></li>
+                                        <li class='contacts__address-phone-item _list'><a
+                                                class="contacts__address-phone  _link" href="tel:0981112233"><svg
+                                                    class="contacts__icon">
+                                                    <use href="./svg/sprite.svg#icon-smartphone"></use>
+                                                </svg>(098) 111 22 33</a></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li class="header__item _list">
+                                <a href="" class="header__link header__link-active _link">Головна</a>
+
+                            </li>
+                            <li class="header__item _list">
+                                <a href="" class="header__link _link">Акції</a>
+                            </li>
+                            <li class="header__item _list">
+                                <a href="" class="header__link _link">Доставка та оплата</a>
+                            </li>
+                            <li class="header__item _list">
+                                <a href="" class="header__link _link">Про нас</a>
+                            </li>
+                            <li class="header__item _list">
+                                <a href="" class="header__link _link">Контакти</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__bottom">
+                    <div class='header__catalog item'>
+                        <ul class='catalog__list'>
+                            <li class='catalog__item-main _list'><a rel='noopener no-referrel nofollow'
+                                    class='header__catalog__link header__catalog__link-main _link' href='#'>Категорії
+                                    товарів <svg class='catalog__icon'>
+                                        <use href='./svg/sprite.svg#icon-chevron-left'></use>
+                                    </svg></a>
+                                <ul class='header__catalog-list'>
+                                    <li class='header__catalog-item _list'>
+                                        <a rel='noopener no-referrel nofollow' class='header__catalog-link _link'
+                                            href='#'>дивани
+                                            <svg class='header__catalog-icon'>
+                                                <use href='./svg/sprite.svg#icon-chevron-left'></use>
+                                            </svg>
+                                        </a>
+                                        <ul class='sub__list'>
+                                            <li class='sub__item _list'>
+                                                <a rel='noopener no-referrel nofollow' class='sub__item__link _link'
+                                                    href=''>Червон </a>
+                                            </li>
+                                            <li class='sub__item _list'>
+                                                <a rel='noopener no-referrel nofollow' class='sub__item__link _link'
+                                                    href=''>Жовті</a>
+                                            </li>
+                                            <li class='sub__item _list'>
+                                                <a rel='noopener no-referrel nofollow' class='sub__item__link _link'
+                                                    href=''>Круглі </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class='header__catalog-item _list'><a rel='noopener no-referrel nofollow'
+                                            class='header__catalog-link _link' href='#'>ліжка<svg
+                                                class='header__catalog-icon'>
+                                                <use href='./svg/sprite.svg#icon-chevron-left'></use>
+                                            </svg></a>
+                                        <ul class='sub__list'>
+                                            <li class='sub__item _list'>
+                                                <a rel='noopener no-referrel nofollow' class='sub__item__link _link'
+                                                    href=''>Добрі</a>
+                                            </li>
+                                            <li class='sub__item _list'>
+                                                <a rel='noopener no-referrel nofollow' class='sub__item__link _link'
+                                                    href=''>Гарні</a>
+                                            </li>
+                                            <li class='sub__item _list'>
+                                                <a rel='noopener no-referrel nofollow' class='sub__item__link _link'
+                                                    href=''>Хороші </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class='header__catalog-item _list'><a rel='noopener no-referrel nofollow'
+                                            class='header__catalog-link _link' href='#'>крісла<svg
+                                                class='header__catalog-icon'>
+                                                <use href='./svg/sprite.svg#icon-chevron-left'></use>
+                                            </svg></a>
+                                        <ul class='sub__list'>
+                                            <li class='sub__item _list'>
+                                                <a rel='noopener no-referrel nofollow' class='sub__item__link _link'
+                                                    href=''>Червоні</a>
+                                            </li>
+                                            <li class='sub__item _list'>
+                                                <a rel='noopener no-referrel nofollow' class='sub__item__link _link'
+                                                    href=''>Жовті</a>
+                                            </li>
+                                            <li class='sub__item _list'>
+                                                <a rel='noopener no-referrel nofollow' class='sub__item__link _link'
+                                                    href=''>Круглі </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class='header__catalog-item _list'><a rel='noopener no-referrel nofollow'
+                                            class='header__catalog-link _link' href='#'>комоди<svg
+                                                class='header__catalog-icon'>
+                                                <use href='./svg/sprite.svg#icon-chevron-left'></use>
+                                            </svg></a>
+                                        <ul class='sub__list'>
+                                            <li class='sub__item _list'>
+                                                <a rel='noopener no-referrel nofollow' class='sub__item__link _link'
+                                                    href=''>Жовто-блакитні</a>
+                                            </li>
+                                            <li class='sub__item _list'>
+                                                <a rel='noopener no-referrel nofollow' class='sub__item__link _link'
+                                                    href=''>Різного кольору</a>
+                                            </li>
+                                            <li class='sub__item _list'>
+                                                <a rel='noopener no-referrel nofollow' class='sub__item__link _link'
+                                                    href=''>Круглі </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class='header__catalog-item _list'><a rel='noopener no-referrel nofollow'
+                                            class='header__catalog-link _link' href='#'>шафи<svg
+                                                class='header__catalog-icon'>
+                                                <use href='./svg/sprite.svg#icon-chevron-left'></use>
+                                            </svg></a>
+                                        <ul class='sub__list'>
+                                            <li class='sub__item _list'>
+                                                <a rel='noopener no-referrel nofollow' class='sub__item__link _link'
+                                                    href=''>Червоні</a>
+                                            </li>
+                                            <li class='sub__item _list'>
+                                                <a rel='noopener no-referrel nofollow' class='sub__item__link _link'
+                                                    href=''>Жовті</a>
+                                            </li>
+                                            <li class='sub__item _list'>
+                                                <a rel='noopener no-referrel nofollow' class='sub__item__link _link'
+                                                    href=''>Круглі </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class='header__catalog-item _list'><a rel='noopener no-referrel nofollow'
+                                            class='header__catalog-link _link' href='#'>кухня<svg
+                                                class='header__catalog-icon'>
+                                                <use href='./svg/sprite.svg#icon-chevron-left'></use>
+                                            </svg></a>
+                                        <ul class='sub__list'>
+                                            <li class='sub__item _list'>
+                                                <a rel='noopener no-referrel nofollow' class='sub__item__link _link'
+                                                    href=''>Червоні</a>
+                                            </li>
+                                            <li class='sub__item _list'>
+                                                <a rel='noopener no-referrel nofollow' class='sub__item__link _link'
+                                                    href=''>Жsssssssssssss
+                                                    sssssssовті</a>
+                                            </li>
+                                            <li class='sub__item _list'>
+                                                <a rel='noopener no-referrel nofollow' class='sub__item__link _link'
+                                                    href=''>Круглі </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="header__logo _link item">
+                        <svg class='header__logo-icon'>
+                            <use href='./svg/sprite.svg#icon-objects'></use>
+                        </svg>
+                        <p class='header__logo-name'><span>F</span>urniture.test</p>
+                    </a>
+
+                    <div class="header__btn-container">
+
+                        <a rel='noopener no-referrel nofollow' class='header__basket-link _link item' href='#'> <svg
+                                class='header__basket-icon'>
+                                <use href='./svg/sprite.svg#icon-shopping-cart'></use>
+                            </svg> <span>Кошик</span> </a>
+                        <button type='button' class='header__btn __btn'>Замовити дзвінок</button>
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- hero -->
+        <section class='hero__section _section'>
+            <div class='hero__container _container'>
+                <div class="image-slider-hero">
+                    <!-- <div class="swiper-button-prev"><svg class="swiper-button-svg">
+                            <use href='./svg/sprite.svg#icon-left'></use>
+                        </svg></div>
+                    <div class="swiper-button-next"><svg class="swiper-button-svg">
+                            <use href='./svg/sprite.svg#icon-right'></use>
+                        </svg></div> -->
+
+                    <div class="hero__wrapper ">
+
+                        <div class="slider-hero ">
+                            <div class="hero__slide">
+                                <picture>
+                                    <source srcset='./img/hero/1.webp 1x, ./img/hero/1@2x.webp 2x' type='image/webp'>
+                                    <source srcset='./img/hero/1.jpg 1x, ./img/hero/1@2x.jpg 2x'>
+                                    <img class="slider__content-img" src="./img/hero/1.jpg" alt="Ліжко">
+                                </picture>
+                                <div class='slider__content'>
+                                    <h1 class='slider__title _anim-items'>Новинка!</h1>
+                                    <h3 class='slider__sub-title '>Ліжко Ornella</h3>
+                                    <p class='slider__description _anim-items'>Це новий рівень комфортного сну</p>
+                                    <a rel='noopener no-referrel nofollow' class='slider__link _link'
+                                        href=''>Детальніше</a>
+                                    <p class='slider__position'><span class="slider__active">01</span><span
+                                            class="slider__next">/04</span>
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="hero__slide">
+                                <picture>
+                                    <source srcset='./img/hero/2.webp 1x, ./img/hero/2@2x.webp 2x' type='image/webp'>
+                                    <source srcset='./img/hero/2.jpg 1x, ./img/hero/2@2x.jpg 2x'>
+                                    <img class="slider__content-img" src="./img/hero/2.jpg" alt="Ліжко">
+                                </picture>
+                                <div class='slider__content'>
+                                    <h1 class='slider__title'>Новинка!</h1>
+                                    <h3 class='slider__sub-title'>Ліжко Ornella</h3>
+                                    <p class='slider__description'>Це новий рівень комфортного сну</p>
+                                    <a rel='noopener no-referrel nofollow' class='slider__link _link'
+                                        href=''>Детальніше</a>
+                                    <p class='slider__position'><span class="slider__active">02</span><span
+                                            class="slider__next">/04</span>
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="hero__slide">
+                                <picture>
+                                    <source srcset='./img/hero/1.webp 1x, ./img/hero/1@2x.webp 2x' type='image/webp'>
+                                    <source srcset='./img/hero/1.jpg 1x, ./img/hero/1@2x.jpg 2x'>
+                                    <img class="slider__content-img" src="./img/hero/1.jpg" alt="Ліжко">
+                                </picture>
+                                <div class='slider__content'>
+                                    <h1 class='slider__title'>Новинка!</h1>
+                                    <h3 class='slider__sub-title'>Ліжко Ornella</h3>
+                                    <p class='slider__description'>Це новий рівень комфортного сну</p>
+                                    <a rel='noopener no-referrel nofollow' class='slider__link _link'
+                                        href=''>Детальніше</a>
+                                    <p class='slider__position'><span class="slider__active">03</span><span
+                                            class="slider__next">/04</span>
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="hero__slide">
+                                <picture>
+                                    <source srcset='./img/hero/2.webp 1x, ./img/hero/2@2x.webp 2x' type='image/webp'>
+                                    <source srcset='./img/hero/2.jpg 1x, ./img/hero/2@2x.jpg 2x'>
+                                    <img class="slider__content-img" src="./img/hero/2.jpg" alt="Ліжко">
+                                </picture>
+                                <div class='slider__content'>
+                                    <h1 class='slider__title'>Новинка!</h1>
+                                    <h3 class='slider__sub-title'>Ліжко Ornella</h3>
+                                    <p class='slider__description'>Це новий рівень комфортного сну</p>
+                                    <a rel='noopener no-referrel nofollow' class='slider__link _link'
+                                        href=''>Детальніше</a>
+                                    <p class='slider__position'><span class="slider__active">04</span><span
+                                            class="slider__next">/04</span>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- advantages  -->
+        <section class='advantages__section _section'>
+            <div class='advantages__container _container'>
+                <div class="__title">
+                    <h2 class='section__title'>Наші переваги</h2>
+                </div>
+
+                <div class="image-slider swiper-container">
+                    <div class="swiper-button-prev"><svg class="swiper-button-svg">
+                            <use href='./svg/sprite.svg#icon-left'></use>
+                        </svg></div>
+                    <div class="swiper-button-next"><svg class="swiper-button-svg">
+                            <use href='./svg/sprite.svg#icon-right'></use>
+                        </svg>
+                    </div>
+
+
+
+                    <div class="image-slider__wrapper swiper-wrapper">
+
+                        <div class="image-slider__slide swiper-slide">
+                            <a rel='noopener no-referrel nofollow' class='image-slider__link _link' href=''>
+                                <picture>
+                                    <source srcset='./img/advantages/1.webp 1x, ./img/advantages/1@2x.webp 2x'
+                                        type='image/webp'>
+                                    <source srcset='./img/advantages/1.jpg 1x, ./img/advantages/1@2x.jpg 2x'>
+                                    <img class='advantages__img' src="./img/advateges/1.jpg" alt="Меблі">
+                                </picture>
+                                <div class="swiper-slide__contaier">
+                                    <h3 class='swiper-slide__item-title'>Меблі преміум класу</h3>
+                                    <p class='swiper-slide__item-description'>За 14 років на ринку меблів для дому ми
+                                        стали
+                                        надійними
+                                        партнерами на ринку Вінницької області та України</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="image-slider__slide swiper-slide">
+                            <a rel='noopener no-referrel nofollow' class='image-slider__link _link' href=''>
+                                <picture>
+                                    <source srcset='./img/advantages/2.webp 1x, ./img/advantages/2@2x.webp 2x'
+                                        type='image/webp'>
+                                    <source srcset='./img/advantages/2.jpg 1x, ./img/advantages/2@2x.jpg 2x'>
+                                    <img class='advantages__img' src="./img/advateges/2.jpg" alt="Команда">
+                                </picture>
+                                <div class="swiper-slide__contaier">
+                                    <h3 class='swiper-slide__item-title'>Надійність</h3>
+                                    <p class='swiper-slide__item-description'>За 14 років на ринку меблів для дому ми
+                                        стали
+                                        надійними
+                                        партнерами на ринку Вінницької області та України</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="image-slider__slide swiper-slide">
+                            <a rel='noopener no-referrel nofollow' class='image-slider__link _link' href=''>
+                                <picture>
+                                    <source srcset='./img/advantages/3.webp 1x, ./img/advantages/3@2x.webp 2x'
+                                        type='image/webp'>
+                                    <source srcset='./img/advantages/3.jpg 1x, ./img/advantages/3@2x.jpg 2x'>
+                                    <img class='advantages__img' src="./img/advateges/3.jpg" alt=" ">
+                                </picture>
+                                <div class="swiper-slide__contaier">
+                                    <h3 class='swiper-slide__item-title swiper-slide__item-title-special'>Безкоштовна
+                                        доставка</h3>
+                                    <p class='swiper-slide__item-description'>За 14 років на ринку меблів для дому ми
+                                        стали
+                                        надійними
+                                        партнерами на ринку Вінницької області та України</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="image-slider__slide swiper-slide">
+                            <a rel='noopener no-referrel nofollow' class='image-slider__link _link' href=''>
+                                <picture>
+                                    <source srcset='./img/advantages/1.webp 1x, ./img/advantages/1@2x.webp 2x'
+                                        type='image/webp'>
+                                    <source srcset='./img/advantages/1.jpg 1x, ./img/advantages/1@2x.jpg 2x'>
+                                    <img class='advantages__img' src="./img/advateges/1.jpg" alt="Меблі">
+                                </picture>
+                                <div class="swiper-slide__contaier">
+                                    <h3 class='swiper-slide__item-title'>Меблі преміум класу</h3>
+                                    <p class='swiper-slide__item-description'>За 14 років на ринку меблів для дому ми
+                                        стали
+                                        надійними
+                                        партнерами на ринку Вінницької області та України</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="image-slider__slide swiper-slide">
+                            <a rel='noopener no-referrel nofollow' class='image-slider__link _link' href=''>
+                                <picture>
+                                    <source srcset='./img/advantages/2.webp 1x, ./img/advantages/2@2x.webp 2x'
+                                        type='image/webp'>
+                                    <source srcset='./img/advantages/2.jpg 1x, ./img/advantages/2@2x.jpg 2x'>
+                                    <img class='advantages__img' src="./img/advateges/2.jpg" alt="Команда">
+                                </picture>
+                                <div class="swiper-slide__contaier">
+                                    <h3 class='swiper-slide__item-title'>Надійність</h3>
+                                    <p class='swiper-slide__item-description'>За 14 років на ринку меблів для дому ми
+                                        стали
+                                        надійними
+                                        партнерами на ринку Вінницької області та України</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="image-slider__slide swiper-slide">
+                            <a rel='noopener no-referrel nofollow' class='image-slider__link _link' href=''>
+                                <picture>
+                                    <source srcset='./img/advantages/3.webp 1x, ./img/advantages/3@2x.webp 2x'
+                                        type='image/webp'>
+                                    <source srcset='./img/advantages/3.jpg 1x, ./img/advantages/3@2x.jpg 2x'>
+                                    <img class='advantages__img' src="./img/advateges/3.jpg" alt=" ">
+                                </picture>
+                                <div class="swiper-slide__contaier">
+                                    <h3 class='swiper-slide__item-title swiper-slide__item-title-special'>Безкоштовна
+                                        доставка</h3>
+                                    <p class='swiper-slide__item-description'>За 14 років на ринку меблів для дому ми
+                                        стали
+                                        надійними
+                                        партнерами на ринку Вінницької області та України</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+        </section>
+        <!-- goods -->
+        <section class='goods__section _section'>
+            <div class='goods__container _container'>
+                <div class="__title">
+                    <h2 class='section__title'>Категорії товарів</h2>
+                </div>
+                <div class='_anim-items goods__tabs'>
+                    <ul class="_anim-show  tabs__list">
+                        <li data-tab="tab-01" class="tabs__item _list"><svg class='tabs__icon'>
+                                <use href='./svg/sprite.svg#icon-living-room'></use>
+                            </svg> Дивани</li>
+                        <li data-tab="tab-02" class="tabs__item _list active-tab"><svg class='tabs__icon'>
+                                <use href='./svg/sprite.svg#icon-bedroom'></use>
+                            </svg> Ліжка</li>
+                        <li data-tab="tab-03" class="tabs__item _list"><svg class='tabs__icon'>
+                                <use href='./svg/sprite.svg#icon-armchair'></use>
+                            </svg> Крісла</li>
+                        <li data-tab="tab-04" class="tabs__item _list"><svg class='tabs__icon'>
+                                <use href='./svg/sprite.svg#icon-wardrobe'></use>
+                            </svg> Комоди</li>
+                        <li data-tab="tab-05" class="tabs__item _list"><svg class='tabs__icon'>
+                                <use href='./svg/sprite.svg#icon-wardrobe-1'></use>
+                            </svg> Шафи</li>
+                        <li data-tab="tab-06" class="tabs__item _list"><svg class='tabs__icon'>
+                                <use href='./svg/sprite.svg#icon-kitchen'></use>
+                            </svg> Кухня</li>
+                    </ul>
+                    <div class='tabs__body '>
+                        <div id="tab-01" class='tabs__block  hidden'>1 Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.
+                            Iste sunt harum, fugit, voluptas et voluptatem necessitatibus aliquid architecto cupiditate
+                            esse excepturi molestias numquam, laboriosam impedit aperiam. Obcaecati molestias laboriosam
+                            enim.</div>
+                        <div id="tab-02" class='tabs__block'>
+                            <ul class='tab__list'>
+                                <li class='tab__item _list'>
+                                    <a rel='noopener no-referrel nofollow' class='tab__link _link' href=''>
+                                        <picture>
+                                            <source
+                                                srcset='./img/goods/bedroom/1.webp 1x, ./img/goods/bedroom/1@2x.webp 2x'
+                                                media='(min-width: 1200px)' type='image/webp' width='370'>
+                                            <source
+                                                srcset='./img/goods/bedroom/1.jpg 1x, ./img/goods/bedroom/1@2x.jpg 2x'
+                                                media='(min-width: 1200px)' width='370'>
+                                            <img class="tab__img" src="./img/goods/bedroom/1.jpg" alt="">
+                                        </picture>
+                                        <div class='tab__description-container'>
+                                            <h4 class='tab__title'>Ліжко Рамона</h4>
+                                            <p class='tab__price'>8 999 грн</p>
+                                        </div>
+                                        <div class="tab__novelty-container">
+                                            <p class='tab__novelty'>Новинка</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class='tab__item  _list'>
+                                    <a rel='noopener no-referrel nofollow' class='tab__link _link' href=''>
+                                        <picture>
+                                            <source
+                                                srcset='./img/goods/bedroom/2.webp 1x, ./img/goods/bedroom/2@2x.webp 2x'
+                                                media='(min-width: 1200px)' type='image/webp' width='370'>
+                                            <source
+                                                srcset='./img/goods/bedroom/2.jpg 1x, ./img/goods/bedroom/2@2x.jpg 2x'
+                                                media='(min-width: 1200px)' width='370'>
+                                            <img class="tab__img" src="./img/goods/bedroom/2.jpg" alt="">
+                                        </picture>
+                                        <div class='tab__description-container'>
+                                            <h4 class='tab__title'>Ліжко Честер</h4>
+                                            <p class='tab__price tab__action-price'>8 999 грн</p>
+                                            <p class='tab__old-price'>8 999 грн</p>
+                                        </div>
+                                        <div class='tab__sale-container'>
+                                            <p class='tab__sale'><span>Хіт продаж</span></p>
+                                            <p class='tab__action'><span>Акція</span></p>
+                                        </div>
+
+                                    </a>
+                                </li>
+                                <li class='tab__item _list'>
+                                    <a rel='noopener no-referrel nofollow' class='tab__link _link' href=''>
+                                        <picture>
+                                            <source
+                                                srcset='./img/goods/bedroom/3.webp 1x, ./img/goods/bedroom/3@2x.webp 2x'
+                                                media='(min-width: 1200px)' type='image/webp' width='370'>
+                                            <source
+                                                srcset='./img/goods/bedroom/3.jpg 1x, ./img/goods/bedroom/3@2x.jpg 2x'
+                                                media='(min-width: 1200px)' width='370'>
+                                            <img class="tab__img" src="./img/goods/bedroom/3.jpg" alt="">
+                                        </picture>
+                                        <div class='tab__description-container'>
+                                            <h4 class='tab__title'>Ліжко Венеція люкс</h4>
+                                            <p class='tab__price'>8 999 грн</p>
+
+                                        </div>
+
+                                    </a>
+                                </li>
+                                <li class='tab__item _list'>
+                                    <a rel='noopener no-referrel nofollow' class='tab__link _link' href=''>
+                                        <picture>
+                                            <source
+                                                srcset='./img/goods/bedroom/4.webp 1x, ./img/goods/bedroom/4@2x.webp 2x'
+                                                media='(min-width: 1200px)' type='image/webp' width='370'>
+                                            <source
+                                                srcset='./img/goods/bedroom/4.jpg 1x, ./img/goods/bedroom/4@2x.jpg 2x'
+                                                media='(min-width: 1200px)' width='370'>
+                                            <img class="tab__img" src="./img/goods/bedroom/4.jpg" alt="">
+                                        </picture>
+                                        <div class='tab__description-container'>
+                                            <h4 class='tab__title'>Ліжко Імперія</h4>
+                                            <p class='tab__price'>8 999 грн</p>
+                                        </div>
+                                        <div class="tab__novelty-container">
+                                            <p class='tab__novelty'>Новинка</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class='tab__item  _list'>
+                                    <a rel='noopener no-referrel nofollow' class='tab__link _link' href=''>
+                                        <picture>
+                                            <source
+                                                srcset='./img/goods/bedroom/5.webp 1x, ./img/goods/bedroom/5@2x.webp 2x'
+                                                media='(min-width: 1200px)' type='image/webp' width='370'>
+                                            <source
+                                                srcset='./img/goods/bedroom/5.jpg 1x, ./img/goods/bedroom/5@2x.jpg 2x'
+                                                media='(min-width: 1200px)' width='370'>
+                                            <img class="tab__img" src="./img/goods/bedroom/5.jpg" alt="">
+                                        </picture>
+                                        <div class='tab__description-container'>
+                                            <h4 class='tab__title'>Ліжко Адель</h4>
+                                            <p class='tab__price tab__action-price'>8 999 грн</p>
+                                            <p class='tab__old-price'>8 999 грн</p>
+                                        </div>
+                                        <div class='tab__sale-container'>
+                                            <p class='tab__sale'><span>Хіт продаж</span></p>
+                                            <p class='tab__action'><span>Акція</span></p>
+                                        </div>
+
+                                    </a>
+                                </li>
+                                <li class='tab__item _list'>
+                                    <a rel='noopener no-referrel nofollow' class='tab__link _link' href=''>
+                                        <picture>
+                                            <source
+                                                srcset='./img/goods/bedroom/6.webp 1x, ./img/goods/bedroom/6@2x.webp 2x'
+                                                media='(min-width: 1200px)' type='image/webp' width='370'>
+                                            <source
+                                                srcset='./img/goods/bedroom/6.jpg 1x, ./img/goods/bedroom/6@2x.jpg 2x'
+                                                media='(min-width: 1200px)' width='370'>
+                                            <img class="tab__img" src="./img/goods/bedroom/6.jpg" alt="">
+                                        </picture>
+                                        <div class='tab__description-container'>
+                                            <h4 class='tab__title'>Ліжко Атлант</h4>
+                                            <p class='tab__price'>8 999 грн</p>
+
+                                        </div>
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="tab-03" class='tabs__block hidden'>Крісла Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.
+                            Iste sunt harum, fugit, voluptas et voluptatem necessitatibus aliquid architecto cupiditate
+                            esse excepturi molestias numquam, laboriosam impedit aperiam. Obcaecati molestias laboriosam
+                            enim.</div>
+                        <div id="tab-04" class='tabs__block hidden'>комоди Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.
+                            Iste sunt harum, fugit, voluptas et voluptatem necessitatibus aliquid architecto cupiditate
+                            esse excepturi molestias numquam, laboriosam impedit aperiam. Obcaecati molestias laboriosam
+                            enim.</div>
+                        <div id="tab-05" class='tabs__block hidden'>комоди Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.
+                            Iste sunt harum, fugit, voluptas et voluptatem necessitatibus aliquid architecto cupiditate
+                            esse excepturi molestias numquam, laboriosam impedit aperiam. Obcaecati molestias laboriosam
+                            enim.</div>
+                        <div id="tab-06" class='tabs__block hidden'>комоди Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.
+                            Iste sunt harum, fugit, voluptas et voluptatem necessitatibus aliquid architecto cupiditate
+                            esse excepturi molestias numquam, laboriosam impedit aperiam. Obcaecati molestias laboriosam
+                            enim.</div>
+                    </div>
+
+
+                </div>
+                <a rel='noopener no-referrel nofollow' class='goods__link-catalog _link' href=''>В каталог</a>
+            </div>
+        </section>
+        <!-- about-us -->
+        <section class='about-us__section _section'>
+            <div class='about-us__container _container'>
+                <div class="__title">
+                    <h2 class='section__title'>Про нас</h2>
+                </div>
+                <div class='about-us__content'>
+                    <div class="about-us__text-content">
+                        <p class='about-us__text'><span>"Furniture"</span> – "Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut
+                            aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                            anim
+                            id est laborum."</p>
+                        <p class='about-us__text'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod
+                            tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea
+                            commodo consequat. Duis
+                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint
+                            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            laborum."
+                        </p>
+                        <p class='about-us__text'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod
+                            tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea
+                            commodo consequat. Duis
+                            aute irure</p>
+                    </div>
+                    <div class='about-us__img-content'>
+                        <picture>
+                            <source srcset='./img/about-us/1.webp 1x, ./img/about-us/1@2x.webp 2x' type='image/webp'>
+
+                            <source srcset='./img/about-us/1.jpg 1x, ./img/about-us/2.jpg 2x'>
+
+                            <img class="about-us__img" src="./img/about-us/1.jpg" alt="наша команда">
+                        </picture>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <!-- question -->
+        <section class='question__section _section'>
+            <div class='question__container _container'>
+                <div class="__title">
+                    <h2 class='section__title'>Залишились питання?</h2>
+                </div>
+                <div class='question__content'>
+                    <div class='question__img-content'>
+                        <picture>
+                            <source srcset='./img/question/1.webp 1x, ./img/question/1@2x.webp 2x' type='image/webp'>
+
+                            <source srcset='./img/question/1.jpg 1x, ./img/question/2.jpg 2x'>
+
+                            <img class="question__img" src="./img/question/1.jpg" alt="наша команда">
+                        </picture>
+                    </div>
+
+                    <div class="question__text-content">
+                        <h3 class='question-title'>Замовте консультацію</h3>
+                        <form class="question__form">
+                            <span class="question__decorative-container">
+                                <input class="question__input-area" type="text" name="name" placeholder="Ім'я" required
+                                    minlength="2">
+                                <input class="question__input-area" type="tel" name="phone" placeholder="Номер телефону"
+                                    required pattern="\+?[0-9\s\-\(\)]+" minlength="10">
+                            </span>
+                            <button type='submit' class='question__btn'>Відправити</button>
+                        </form>
+                        <p class='question__text'>Залиште заявку або телефонуйте за номером <a
+                                rel='noopener no-referrel nofollow' class='__link _link' href='tel:+380991112233'>(099)
+                                111 22
+                                33,</a> і наш менеджер звяжеться з вами для кваліфікованої
+                            консультації.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class='footer__section _section'>
+            <div class='footer__container _container'>
+                <div class='footer__left-side'>
+
+                    <div class='footer__link-container'>
+                        <a href="#" class="footer__logo _link item">
+                            <svg class='footer__logo-icon'>
+                                <use href='./svg/sprite.svg#icon-footer'></use>
+                            </svg>
+                            <h4 class='footer__logo-name'><span>F</span>urniture.test</h4>
+                        </a>
+                        <div class='footer__menu-container'>
+                            <ul class='footer__menu__list'>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link'
+                                        href=''>Дивани</a>
+                                </li>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link'
+                                        href=''>ліжка</a></li>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link'
+                                        href=''>Крісла</a>
+                                </li>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link'
+                                        href=''>шафи</a></li>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link'
+                                        href=''>Кухні</a></li>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link'
+                                        href=''>комоди</a>
+                                </li>
+                            </ul>
+                            <ul class='footer__menu__list'>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link'
+                                        href=''>АкцІї</a></li>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link'
+                                        href=''>Доставка та
+                                        оплата</a></li>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link' href=''>про
+                                        нас</a>
+                                </li>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link'
+                                        href=''>контакти</a>
+                                </li>
+                            </ul>
+
+
+                            <div class='footer__data-container'>
+                                <a rel='noopener no-referrel nofollow' class='footer__data__map _link'
+                                    href="https://goo.gl/maps/ZLKBhgC65MUaGSks7" target="_blank">
+                                    <svg class='footer__data__map__icon'>
+                                        <use href='./svg/sprite.svg#icon-map-pin'></use>
+                                    </svg>TEST
+                                </a>
+                                <p class="footer__data-time"> <svg class='footer__data-time__icon'>
+                                        <use href='./svg/sprite.svg#icon-calendar'></use>
+                                    </svg> Пн-Пт, з 10 до 18</p>
+                                <a class="footer__data__phone  _link" href="tel:0991112233"><svg
+                                        class="footer__data__icon">
+                                        <use href="./svg/sprite.svg#icon-smartphone"></use>
+                                    </svg>(099) 111 22 33</a>
+                                <a class="footer__data__phone  _link" href="tel:0992223344"><svg
+                                        class="footer__data__icon footer__data__icon-1">
+                                        <use href="./svg/sprite.svg#icon-smartphone"></use>
+                                    </svg>(099) 222 33 44</a>
+                                <div class='footer__social-container'>
+                                    <p class='footer__social-title'>Ми в соціальних мережах:</p>
+                                    <ul class='footer__social-list'>
+                                        <li class='footer__social-item _list'><a rel='noopener no-referrel nofollow'
+                                                class='footer__social__link _link' href='#'><svg
+                                                    class='footer__social__icon'>
+                                                    <use href='./svg/sprite.svg#icon-telegram'></use>
+                                                </svg></a></li>
+                                        <li class='footer__social-item _list'><a rel='noopener no-referrel nofollow'
+                                                class='footer__social__link _link' href='#'><svg
+                                                    class='footer__social__icon'>
+                                                    <use href='./svg/sprite.svg#icon-facebook'></use>
+                                                </svg></a></li>
+                                        <li class='footer__social-item _list'><a rel='noopener no-referrel nofollow'
+                                                class='footer__social__link _link' href='#'><svg
+                                                    class='footer__social__icon'>
+                                                    <use href='./svg/sprite.svg#icon-instagram'></use>
+                                                </svg></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class='footer__last-container'>
+                            <p class=''>&copy; ТОВ Furniture, працюємо з 2006 року</p>
+                            <a rel='noopener no-referrel nofollow' class='__link _link' href='' target="_blank"><svg
+                                    class='__icon'>
+                                    <use href='./svg/sprite.svg#icon-vector2'></use>
+                                </svg>Глянець — розробка інтернет-магазинів</a>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class='footer__rigth-side'>
+                    <picture>
+                        <source srcset='./img/footer/1.webp 1x, ./img/footer/1@2x.webp 2x' type='image/webp'>
+                        <source srcset='./img/footer/1.jpg 1x, ./img/footer/1@2x.jpg 2x'>
+                        <img class='footer__img' src="./img/footer/1.jpg" alt="Меблі">
+                    </picture>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/swiper-advantages.js"></script>
+    <script src="./js/tabs.js"></script>
+</body>
+
+
+</html>
