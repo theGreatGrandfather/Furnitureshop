@@ -46,9 +46,12 @@
   font-size: 24px;
   line-height: $line-height;
   gap: 10px;
+  
+
   &:hover .tabs__icon,
   &:focus .tabs__icon {
     fill: $color_accent;
+    cursor: pointer;
   }
   &:focus-visible {
     outline: 2px solid crimson;
